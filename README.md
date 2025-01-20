@@ -1,6 +1,6 @@
 # Express PostgreSQL User Management API
 
-This project is a simple API using Express.js and PostgreSQL for CRUD (Create, Read, Delete) operations on user data, with a terminal-based interface for interaction.
+This project is a simple API using Express.js and PostgreSQL for CRD (Create, Read, Delete) operations on user data, with a terminal-based interface for interaction.
 
 ## Requirements
 1. **Node.js** (version 14 or higher)
@@ -69,5 +69,5 @@ This project is a simple API using Express.js and PostgreSQL for CRUD (Create, R
 - Use a terminal that supports interactive input for the best experience.
 
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the ISC License.
 
