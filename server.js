@@ -9,10 +9,10 @@ const port = 3000;
 
 // setup client
 const client = new Client({
-  user: 'postgres',
+  user: 'your_username', // username
   host: 'localhost',
-  database: '', // nama database
-  password: '', // password database
+  database: 'your_database', // nama database
+  password: 'your_password', // password database
   port: 5432,
 });
 
