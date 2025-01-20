@@ -37,17 +37,17 @@ This project is a simple API using Express.js and PostgreSQL for CRD (Create, Re
    - Adjust the database configuration in the code:
      ```javascript
      const client = new Client({
-       user: 'postgres',
+       user: 'your_username',
        host: 'localhost',
-       database: 'testDb',
-       password: '123',
+       database: 'your_database',
+       password: 'your_password',
        port: 5432,
      });
      ```
 
 4. **Run the Server**:
    ```bash
-   node <your_file_name>.js
+   node server.js
    ```
    The server will run at `http://localhost:3000`.
 
@@ -67,6 +67,7 @@ This project is a simple API using Express.js and PostgreSQL for CRD (Create, Re
 ## Notes
 - Ensure PostgreSQL is running before starting the server.
 - Use a terminal that supports interactive input for the best experience.
+- You must edit the database name, and password database inside server.js
 
 ## License
 This project is licensed under the ISC License.
